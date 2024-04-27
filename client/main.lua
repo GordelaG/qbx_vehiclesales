@@ -327,7 +327,7 @@ CreateThread(function()
             debug = false,
             onEnter = function()
                 if cache.vehicle then
-                    lib.showTextUI(locale('menu.interaction'), {position = 'left-center'})
+                    lib.showTextUI(locale('menu.interaction'), {position = 'right-center'})
                 end
             end,
             onExit = function()
@@ -353,7 +353,7 @@ CreateThread(function()
                     debug = false,
                     onEnter = function()
                         if isCarSpawned(k2) then
-                            lib.showTextUI(locale('menu.view_contract_int'), {position = 'left-center'})
+                            lib.showTextUI(locale('menu.view_contract_int'), {position = 'right-center'})
                         end
                     end,
                     onExit = function()
